@@ -1,0 +1,79 @@
+.bg-light {
+    background-color: rgba(228, 228, 228, 0.253) !important;
+}
+
+.img {
+    background-image: url('../img/corona.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.box {
+    padding: 20px 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.280) !important;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.44);
+}
+
+.box:hover {
+    padding: 20px 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.400) !important;
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.514);
+}
+
+.bg-warning:hover {
+    background-color: #f3cc2e !important;
+}
+
+.bg-danger:hover {
+    background-color: #ee0e24 !important;
+}
+
+.bg-success:hover {
+    background-color: #09bd33 !important;
+}
+
+.bg-info:hover {
+    background-color: #12b5ce !important;
+}
+
+footer {
+    border-top: 1px solid rgb(216, 216, 216);
+    bottom: 0px !important;
+    height: 100%;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.table-responsive {
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.img-footer {
+    height: 50px;
+    background-image: url('../img/covid.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* Jam */
+
+#jam {
+    color: rgb(23, 160, 107);
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 4px 4px 10px rgba(91, 210, 36, 0.4),
+        4px 4px 20px rgba(26, 210, 26, 0.4)
+}
+
+/* End Jam */
